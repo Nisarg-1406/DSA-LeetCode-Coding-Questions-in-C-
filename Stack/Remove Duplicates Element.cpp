@@ -1,12 +1,6 @@
+//316 - https://leetcode.com/problems/remove-duplicate-letters/
 string removeDuplicateLetters(string s) {
-        /*int size = s.size();
-        sort(s.begin(),s.end());
-        for(int i=1;i<size;i++){
-            if(s[i] == s[i-1]) s.erase(s.begin() + (i));
-        }
-        return s;*/
-        
-        //Using vector - 
+        //Using vector - Method 1
         /*vector<int> cand(256,0);
         vector<bool> visited(256, false);
         for(char c : s){
@@ -25,7 +19,7 @@ string removeDuplicateLetters(string s) {
         }
         return res;*/
         
-        //Using stack - 
+        //Using stack - Method - 2
         vector<char>v(256,0);
         for(auto i:s) v[i]++;
         stack<char>st;
