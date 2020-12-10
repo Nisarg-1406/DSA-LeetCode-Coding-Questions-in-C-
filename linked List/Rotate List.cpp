@@ -2,7 +2,7 @@
     // 1) Calculating the length of the linked list
     // 2) Making the last node to point it to the head of the linked list.
     // 3) Doing k = k % len when k > len as we would be traversing unneccessary. 
-    // 4) Making k = len - k, i.e to make the (len - k)th node pointing to null. 
+    // 4) Making k = len - k, i.e to make the (len - k)th node pointing to null and then to make the next of (len - k)th node pointing to the head of the linked list.
     
     ListNode* rotateRight(ListNode* head, int k) {
         // edge cases 
