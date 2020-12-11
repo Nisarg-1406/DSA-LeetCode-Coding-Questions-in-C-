@@ -15,3 +15,21 @@
         n = ((n & 0xaaaaaaaa) >> 1) | ((n & 0x55555555) << 1);
         return n;
     }
+    
+    //Another Effective and Easy solution - Prefer this solution. 
+    uint32_t reverseBits(uint32_t n) {
+        uint32_t rev = 0;
+        int j = 0; // to start j from rightmost bit to leftmost bit
+        for (int i = 31; i >= 0; i--) {
+            uint32_t mask = (1 << i); // to traverse from leftmost bit to rightmost bit 
+            if ((n & mask) != 0){
+                uint32_t smask = (1 << j);
+                rev = rev | smask;
+            } else {
+                uint32_t smask = 0;
+                rev = rev | smask;
+            }
+            j++;
+        }
+        return rev;
+    }
