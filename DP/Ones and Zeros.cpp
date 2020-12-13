@@ -7,7 +7,7 @@
     2) If we skip s, memo[i][j] shouldn't change.
     3) Otherwise, we form s with numZeroes 0's and numOnes 1's, which leaves us i - numZeroes 0's and j - numOnes 1's to work with for all previous strings. How many
       strings can we form with i - numZeroes 0's and j - numOnes 1's? It's memo[i - numZeroes][j - numOnes] which was calculated in previous rounds, so just add 1 to that.
-    4) We choose to form s or skip it based on which of 2 and 3 gives us a larger memo[i][j]
+    4) We choose to form s or skip it based on which of 2 and 3 gives us a larger memo[i][j].
     
     CODE - 
     int findMaxForm(vector<string>& strs, int m, int n) {
