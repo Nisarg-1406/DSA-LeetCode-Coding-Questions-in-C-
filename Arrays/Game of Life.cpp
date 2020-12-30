@@ -1,4 +1,4 @@
-    
+    //Question link - https://leetcode.com/problems/game-of-life/
     //Condition checking - 
     bool isValid (vector<vector<int>>& board, int x, int y) {
         return (x >= 0 && y >= 0 && x < board.size() && y < board[0].size());
