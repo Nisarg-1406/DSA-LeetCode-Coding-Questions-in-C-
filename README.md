@@ -7,6 +7,3 @@ You can Visit my Profile of LeetCode here - **https://leetcode.com/Nisarg1406/**
 I am good at **Algorithms and Data structure** and I have good Projects in **Machine learning and Deep Learning (Computer Vision)**. I am activily looking for an **Internhip** in **Software development enginering (SDE) Domain and Machine learning Domain**.
 
 You can contact me on my mail ID - **nisarg.mehta18@vit.edu** OR **nisargmehta2000@gmail.com**  and even Contact me on LinkedIn - **https://www.linkedin.com/in/nisarg-mehta-4a378a185/**
-
-
-![image](https://drive.google.com/uc?export=view&id=<1mjPNDv4FoSTLkNZjEgP-nmT6FAsU5WfH>)
