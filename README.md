@@ -1,8 +1,10 @@
 # DSA-Coding-Questions---C-
 Mainly Focusing on the **LeetCode Coding Questions Solutions in C++**
 
-I am Solving Algorithms and Data Structure Problems from more than **210 Days** Without any off-Day and have solved more than **400 Questions** on various topics.  
+I am Solving Algorithms and Data Structure Problems from more than **240 Days** Without any off-Day and have solved more than **410 Questions** on various topics.  
 You can Visit my Profile of LeetCode here - **https://leetcode.com/Nisarg1406/**
+
+<img src = "Hardwork Images/LeetCode 410 Questions and 2222 Submissions.jpg" width = "700">
 
 I am good at **Algorithms and Data structure** and I have good Projects in **Machine learning and Deep Learning (Computer Vision)**. I am activily looking for an **Internhip** in **Software development enginering (SDE) Domain and Machine learning Domain**.
 
