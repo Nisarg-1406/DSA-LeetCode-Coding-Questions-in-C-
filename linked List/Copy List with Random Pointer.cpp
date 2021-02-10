@@ -1,4 +1,4 @@
-    //Taking 3 cases into consideration - O(1) space
+    //Taking 3 cases or 3 rounds into consideration - O(1) space
     Node* copyRandomList(Node* head) {
         ios_base::sync_with_stdio(false);
         cin.tie(NULL);
