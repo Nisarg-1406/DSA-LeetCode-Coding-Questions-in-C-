@@ -1,7 +1,7 @@
     //Question Link - https://leetcode.com/problems/shortest-unsorted-continuous-subarray/    
-
+    // 3 Methods 
     int findUnsortedSubarray(vector<int>& nums) {
-        //Using Sorting
+        //Using Sorting - 1st Method
         /*vector<int> sorted(nums);
         sort(sorted.begin(),sorted.end());
         int n = nums.size();
@@ -10,7 +10,7 @@
         while(j>i && sorted[j] == nums[j]) j--;
         return j-i+1;*/
         
-        //Somewhat Difficult - 
+        //Somewhat Difficult - 2nd Method
         /*int n = nums.size();
         if (n <= 1) return 0;
         int left = 0, right = n - 1;
@@ -29,7 +29,7 @@
         while (right < n && nums[right] < lmax) ++right;
         return right - left - 1;*/
         
-        //Easiest Method - 
+        //Easiest Method - 3rd Method
         int n = nums.size();
         vector<int> maxlhs(n);   // max number from left to cur
         vector<int> minrhs(n);   // min number from right to cur
